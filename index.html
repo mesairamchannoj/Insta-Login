@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram Login Page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+        <style>
+            #body{
+               display: flex;
+               justify-content: center;
+               align-items: center;
+            }
+            .bottom{
+                text-align: center;
+                margin: 10px;
+            }
+            h1{
+                text-align: center;
+                font-family: Script MT;
+                font-size: 50px;
+            }
+            a{
+                margin-left: 50px;
+                text-decoration: none;
+            }
+            .forgot{
+                margin-left: 80px;
+                color: gray;
+            }
+            .sign{
+                margin-left: 0px;
+            }
+            .form1{
+                border: 1px solid lightgray;
+                padding: 40px;
+                width: 350px;
+                margin-top: 75px;
+            }
+            .form2{
+                border: 1px solid lightgray;
+                width: 350px;
+                text-align: center;
+                margin-top: 20px;
+                padding: 10px;
+            }
+            .form-control{
+                font-size: small;
+            }
+            legend{
+                text-align: center;
+                color: darkslategray;
+                font-size: small;
+            }
+            #footerlink div a{
+                color: gray;
+            }
+            #footerlink{
+                font-size: small;
+                text-align: center;
+            }
+            #line3{
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body class="container-fluid">
+
+        <div id="body">
+            <div class="parent-2">
+                <img src="public/MobileInsta.png" crossorigin="anonymous">
+            </div>
+    
+            <div class="parent-container">
+                <div class="child">
+                    <div class="parent1">
+                        <form class="form1">
+                            <h1>Instagram</h1>
+                                
+                            <div class="mb-1 mt-4">
+                                <input class="form-control form-control-lg" type="text" name="username" placeholder="Phone number, username, or email">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <input class="form-control form-control-lg" type="password" name="password" placeholder="Password">
+                            </div>
+                            
+                            <div class="mb-3">
+                                <button class="btn btn-info btn-sm w-100 text-white"><b>Log-In</b></button>
+                            </div>
+                            <div>
+                                <fieldset><legend><div style="opacity: 0.4;">─────────────&nbsp; OR &nbsp;────────────</div></legend></fieldset>
+                            </div>
+                            <div class="mt-2">
+                                <a href="http://www.facebook.com"><span class="bi bi-facebook"></span><b> Log in with Facebook</b></a>
+                            </div>
+                            <div class="mt-2">
+                                <a class="forgot" href="#">Forgot Password?</a>
+                            </div>
+                        </form>
+                        <form class="form2">
+                            <label class="pt-3"><p>Don't have an account?</p></label> <a class="sign" href="#">Sign Up</a>
+                        </form>
+                        <div class="bottom">
+                            <p>Get the App.</p>
+                            <img src="public/macPlay.png" width="140" height="40"> <img src="public/AndroidPlay.png" width="140" height="40">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="footerlink">
+            <div id="line1">
+                <a href="#">Meta</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Jobs</a>
+                <a href="#">Help</a>
+                <a href="#">API</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Top Accounts</a>
+                <a href="#">Hashtags</a>
+                <a href="#">Locations</a>
+                <a href="#">Instagram Lite</a>
+                <a href="#">Contact Uploading & Non-Users</a>
+            </div>
+            <br>
+            <div id="line2">
+                <a href="#">Dance</a>
+                <a href="#">Food & Drink</a>
+                <a href="#">Home & Garden</a>
+                <a href="#">Music</a>
+                <a href="#">Visual Arts</a>
+            </div>
+            <br>
+            <div id="line3">
+                <select name="city" id="city">
+                    <option>English</option>
+                    <option>Hindi</option>
+                    <option>French</option>
+                    <option>Japanese</option>
+                    <option>Dutch</option>
+                    <option>Greek</option>
+                </select>
+                <a href="#">&copy; 2022 Instagram from Meta</a>
+            </div>
+        </div>
+    </body>
+</html>
